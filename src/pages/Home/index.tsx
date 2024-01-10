@@ -1,10 +1,8 @@
 import { Hero } from "@/components/Hero";
-import { Header } from "../../components/Header";
 
  export function Home() {
     return (
-        <main>
-            <Header />
+        <main className="max-w-maxW mx-auto px-8">
             <Hero />
         </main>
     )

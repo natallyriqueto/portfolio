@@ -1,10 +1,12 @@
 import { Home } from "./pages/Home"
 import './index.css'
+import { Header } from "./components/Header"
 
 function App() {
 
   return (
-    <div className="max-w-maxW mx-auto px-8">
+    <div>
+      <Header />
       <Home />
     </div>
   )
