@@ -3,8 +3,14 @@
 @tailwind utilities;
 
 @layer base {
-    body {
-      @apply font-inter;
-    }
-   
+  html {
+    @apply font-inter;
+    @apply text-body;
   }
+
+  @screen md {
+    html {
+      @apply text-body-lg;
+    }
+  }
+}

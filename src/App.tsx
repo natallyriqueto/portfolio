@@ -4,7 +4,7 @@ import './index.css'
 function App() {
 
   return (
-    <div className="max-w-maxW mx-auto px-4">
+    <div className="max-w-maxW mx-auto px-8">
       <Home />
     </div>
   )
