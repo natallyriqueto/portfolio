@@ -1,9 +1,21 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ['./src/**/*.tsx'],
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
-    extend: {},
+    extend: {
+      maxWidth: {
+        maxW: "90rem"
+      },
+      gap: {
+        xl: '5rem'
+      },
+      fontFamily: {
+        inter: 'Inter'
+      }
+    },
   },
   plugins: [],
 }
-
