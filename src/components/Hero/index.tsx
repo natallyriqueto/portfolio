@@ -1,14 +1,15 @@
 import desk from '@/assets/images/desk.png'
 import avatar from '@/assets/images/avatar.png'
-import html from '@/assets/images/html.png'
-import javascript from '@/assets/images/javascript.png'
-import typescript from '@/assets/images/typescript.png'
-import tailwind from '@/assets/images/tailwind.png'
-import figma from '@/assets/images/figma.png'
+import html from '@/assets/images/html.svg'
+import css from '@/assets/images/css.svg'
+import javascript from '@/assets/images/javascript.svg'
+import typescript from '@/assets/images/typescript.svg'
+import tailwind from '@/assets/images/tailwind.svg'
+import figma from '@/assets/images/figma.svg'
 
 export function Hero() {
     return (
-        <div className='flex py-12 gap-8'>
+        <div className='flex justify-center py-28 gap-8'>
             <div className='w-500'>
                 <img src={avatar} alt="avatar" className='mb-6' />
                 <h1 className='text-6xl font-extrabold mb-6 tracking-tight'>Natally Riqueto</h1>
@@ -20,6 +21,7 @@ export function Hero() {
                 <p className='uppercase text-sm	font-semibold mb-5'>technology stack</p>
                 <div className='flex gap-6'>
                     <img src={html} alt="html icon" />
+                    <img src={css} alt="css icon" />
                     <img src={typescript} alt="typescript icon" />
                     <img src={javascript} alt="javascript icon" />
                     <img src={figma} alt="figma icon" />
