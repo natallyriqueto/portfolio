@@ -14,7 +14,7 @@ export function Hero() {
                 <img src={avatar} alt="avatar" className='mb-6' />
                 <h1 className='text-6xl font-extrabold mb-6 tracking-tight'>Natally Riqueto</h1>
                 <div className='flex items-center gap-4 mb-12'>
-                    <div className='bg-slate-950 w-200 h-xs rounded'></div>
+                    <div className='bg-zinc-950 w-200 h-xs rounded'></div>
                     <h2 className='text-2xl font-semibold'>Frontend Developer</h2>
                 </div>
                 <p className='text-gray-500 text-xl mb-10'>Hello!👋 I’m a software developer with more than 5 years of experience building amazing experiences.</p>
