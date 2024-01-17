@@ -9,7 +9,7 @@ import figma from '@/assets/images/figma.svg'
 
 export function Hero() {
     return (
-        <div className='flex justify-center py-28 gap-8'>
+        <div className='flex justify-center py-32 gap-8'>
             <div className='w-500'>
                 <img src={avatar} alt="avatar" className='mb-6' />
                 <h1 className='text-6xl font-extrabold mb-6 tracking-tight'>Natally Riqueto</h1>

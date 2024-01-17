@@ -14,7 +14,6 @@ export default {
         235: '14.6rem',
         500: '31.25rem',
         762: '47.6rem',
-        384: '24rem',
       },
       height: {
         xs: '2px',

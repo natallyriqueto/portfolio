@@ -14,7 +14,7 @@ export function Skills() {
             <div className="max-w-screen-sm mx-auto">
                 <h3 className="uppercase font-semibold leading-6 tracking-wide">skills</h3>
                 <h2 className="font-bold -tracking-wide leading-10 text-4xl mt-2 mb-5">Core Frontend Developer Skills</h2>
-                <p className="leading-7	text-xl text-gray-500 mb-24">Discover my proficiency as a Frontend developer.  From crafting intuitive user interfaces and engaging user experiences to translating design concepts into responsive pages.</p>
+                <p className="leading-7	text-xl text-gray-500">Discover my proficiency as a Frontend developer.  From crafting intuitive user interfaces and engaging user experiences to translating design concepts into responsive pages.</p>
             </div>
             <div className="flex justify-center gap-8 flex-wrap rounded-md">
                 <Card icon={PaintBrush} title="UI/UX" description="Ability to create visually pleasing and user-centric designs that enhance the overall user experience."/>
