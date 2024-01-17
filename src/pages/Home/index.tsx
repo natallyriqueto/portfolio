@@ -5,7 +5,7 @@ import { Stats } from "@/components/Stats";
 
  export function Home() {
     return (
-        <main className="max-w-maxW mx-auto px-8">
+        <main className="max-w-maxW mx-auto px-12">
             <Hero />
             <Skills />
             <Stats />
