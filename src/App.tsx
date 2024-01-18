@@ -1,14 +1,16 @@
 import { Home } from "./pages/Home"
 import './index.css'
 import { Header } from "./components/Header"
+import { Footer } from "./components/Footer"
 
 function App() {
 
   return (
-    <div>
+    <>
       <Header />
       <Home />
-    </div>
+      <Footer />
+    </>
   )
 }
 
