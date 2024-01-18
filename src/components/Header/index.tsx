@@ -1,5 +1,4 @@
 import logo from "@/assets/images/logo.png";
-import { Button } from "../Button";
 
 export function Header() {
     return (
@@ -15,7 +14,12 @@ export function Header() {
                         <li>Projects</li>
                     </ul>
                 </div>
-                <Button buttonText="Contact me" />
+                <button 
+                    type="button" 
+                    className='bg-zinc-950 text-sm text-zinc-50 px-4 py-2 rounded-md hidden tablet:flex'
+                > 
+                Contact me
+                </button>     
             </div>
         </nav>
     )
