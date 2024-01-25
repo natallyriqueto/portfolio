@@ -8,8 +8,9 @@ import tailwind from "@/assets/images/tailwind.svg"
 import figma from "@/assets/images/figma.svg"
 
 export function Hero() {
+
     return (
-        <div className="flex justify-center py-32 gap-8">
+        <section id="about" className="flex justify-center py-32 gap-8">
             <div className="laptop:w-500">
                 <img src={avatar} alt="avatar" className="mb-6" />
                 <h1 className="text-6xl font-extrabold mb-6 tracking-tight">Natally Riqueto</h1>
@@ -31,6 +32,6 @@ export function Hero() {
             <div className="hidden laptop:flex max-w-762 mx-auto">
                 <img src={desk} alt="computer and a computer desk" />
             </div>
-        </div>
+        </section>
     )
 }
