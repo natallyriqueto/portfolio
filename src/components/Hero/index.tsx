@@ -21,7 +21,8 @@ export function Hero() {
                     <div className="bg-zinc-950 w-200 h-xs rounded"></div>
                     <h2 className="text-2xl font-semibold">Frontend Developer</h2>
                 </div>
-                <p className="text-gray-500 text-xl mb-10">Hello!👋 I’m a software developer with more than 5 years of experience building amazing experiences.</p>
+                <p className="text-gray-500 text-xl mb-10"> Hello!👋 <br/> I'm a passionate frontend developer committed to build flawless digital applications. 
+                    Boasting over 5 years of hands-on experience, I specialize in transforming imaginative concepts into visually user-friendly interfaces.</p>
                 <p className="uppercase text-sm	font-semibold mb-5">technology stack</p>
                 <div className="flex gap-6 flex-wrap">
                     <img src={html} alt="html icon" />

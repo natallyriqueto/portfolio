@@ -1,9 +1,7 @@
 import { 
-    DribbbleLogo, 
     GithubLogo, 
     InstagramLogo, 
     LinkedinLogo, 
-    TwitterLogo 
 } from "phosphor-react";
 
 export function Footer() {
@@ -14,11 +12,9 @@ export function Footer() {
                 <div className="flex flex-col items-center gap-6 laptop:flex-row laptop:justify-between">
                     <p>© 2020 Natally Riqueto. All rights reserved.</p>
                     <div className="flex gap-6 items-center">
-                        <LinkedinLogo size={24} />
-                        <InstagramLogo size={24} />
-                        <TwitterLogo size={24} />
-                        <GithubLogo size={24} />
-                        <DribbbleLogo size={24} />
+                        <a href="https://www.linkedin.com/in/natally-riqueto-b6663a15a/"><LinkedinLogo size={24} /></a>
+                        <a href="https://www.instagram.com/winteriscoming0/"><InstagramLogo size={24} /></a>
+                        <a href="https://github.com/natallyriqueto"><GithubLogo size={24} /></a>
                     </div>
                 </div>
             </div>
