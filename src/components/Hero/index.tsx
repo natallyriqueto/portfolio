@@ -6,6 +6,9 @@ import javascript from "@/assets/images/javascript.svg"
 import typescript from "@/assets/images/typescript.svg"
 import tailwind from "@/assets/images/tailwind.svg"
 import figma from "@/assets/images/figma.svg"
+import node from "@/assets/images/node.svg"
+import angular from "@/assets/images/angular.svg"
+import react from "@/assets/images/react.svg"
 
 export function Hero() {
 
@@ -22,9 +25,12 @@ export function Hero() {
                 <p className="uppercase text-sm	font-semibold mb-5">technology stack</p>
                 <div className="flex gap-6">
                     <img src={html} alt="html icon" />
+                    <img src={react} alt="react icon" />
+                    <img src={angular} alt="angular icon" />
                     <img src={css} alt="css icon" />
                     <img src={typescript} alt="typescript icon" />
-                    <img src={javascript} alt="javascript icon" />
+                    <img src={javascript} alt="javascript icon" />                    
+                    <img src={node} alt="node icon" />
                     <img src={figma} alt="figma icon" />
                     <img src={tailwind} alt="tailwind icon" />
                 </div>
