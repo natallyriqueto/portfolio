@@ -3,6 +3,9 @@ import reactLogo from "@/assets/images/react.svg";
 import typescriptLogo from "@/assets/images/typescript.svg";
 import figma from "@/assets/images/figma.svg";
 import github from "@/assets/images/github.svg";
+import Slider from "react-slick";
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 export type tagsType = {
     title: string;
@@ -39,14 +42,23 @@ const projectsList: ProjectListType[] = [
 ]
 
 export function Projects() {
+
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1
+    };
+    
     return (
         <section id="projects" className="py-24">
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-4 mb-20">
                 <h2 className="tracking-tighter	font-extrabold text-4xl leading-10">Projects</h2>
                 <p className="text-gray-500 text-xl">Each project is a testament to my passion for innovation, attention to detail, and commitment to delivering high-quality results. Whether it's web applications, websites, or interactive designs, this portfolio offers a glimpse into the projects that define my journey as a frontend developer and designer.</p>
                 <div className="border border-b-2 border-gray-200"></div>
             </div>
-            <div className="flex gap-5 flex-wrap mt-20 cursor-pointer">
+            <div className="hidden laptop:flex gap-5 flex-wrap cursor-pointer">
                 { projectsList.map((project) => 
                 <ProjectCard 
                     title={project.title} 
@@ -55,6 +67,18 @@ export function Projects() {
                     stack={project.stack}
                 />
                 )}
+            </div>
+            <div className="laptop:hidden m-auto w-full">
+                <Slider {...settings}>
+                    { projectsList.map((project) => 
+                    <ProjectCard 
+                        title={project.title} 
+                        description={project.description} 
+                        tag={project.tag} 
+                        stack={project.stack}
+                    />
+                    )}
+                </Slider>
             </div>
         </section>
     )

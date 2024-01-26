@@ -23,7 +23,7 @@ export function Hero() {
                 </div>
                 <p className="text-gray-500 text-xl mb-10">Hello!👋 I’m a software developer with more than 5 years of experience building amazing experiences.</p>
                 <p className="uppercase text-sm	font-semibold mb-5">technology stack</p>
-                <div className="flex gap-6">
+                <div className="flex gap-6 flex-wrap">
                     <img src={html} alt="html icon" />
                     <img src={react} alt="react icon" />
                     <img src={angular} alt="angular icon" />
