@@ -18,6 +18,7 @@ interface ProjectListType {
     description: string;
     tag: tagsType;
     stack: Array<string>;
+    link: string;
 }
 
 const projectsList: ProjectListType[] = [
@@ -25,19 +26,22 @@ const projectsList: ProjectListType[] = [
         title: "Learnu", 
         description: "This project is an engaging simulation of a small coffee shop delivery service, which was built to serve as a practical exercise to improve front-end development skills.",
         tag: { title: "Landing Page", fontColor:"text-indigo-800", bgColor: "bg-indigo-100"},
-        stack: [reactLogo, typescriptLogo, figma, github]
+        stack: [reactLogo, typescriptLogo, figma, github],
+        link: "/learnu"
     },
     { 
         title: "Coffee Delivery", 
         description: "This project is an engaging simulation of a small coffee shop delivery service, which was built to serve as a practical exercise to improve front-end development skills.",
         tag: { title: "E-Commerce", fontColor:"text-red-800", bgColor: "bg-red-100"},
-        stack: [reactLogo, typescriptLogo, figma, github]
+        stack: [reactLogo, typescriptLogo, figma, github],
+        link: ""
     },
     { 
         title: "Netflix", 
         description: "This case study focuses on developing a landing page designed to replicate the Netflix interface, providing an opportunity to explore new interfaces experiences.",
         tag: { title: "Case Study", fontColor:"font-emerald-800", bgColor: "bg-emerald-100"},
-        stack: [reactLogo, typescriptLogo, figma, github]
+        stack: [reactLogo, typescriptLogo, figma, github],
+        link: ""
     },
 ]
 
@@ -65,6 +69,7 @@ export function Projects() {
                     description={project.description} 
                     tag={project.tag} 
                     stack={project.stack}
+                    link={project.link}
                 />
                 )}
             </div>
@@ -76,6 +81,7 @@ export function Projects() {
                         description={project.description} 
                         tag={project.tag} 
                         stack={project.stack}
+                        link={project.link}
                     />
                     )}
                 </Slider>

@@ -12,7 +12,6 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 export function Skills() {
-
     const settings = {
         dots: true,
         infinite: true,
