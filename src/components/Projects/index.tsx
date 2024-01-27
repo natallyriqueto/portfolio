@@ -42,6 +42,13 @@ const projectsList: ProjectListType[] = [
         tag: { title: "Case Study", fontColor:"font-emerald-800", bgColor: "bg-emerald-100"},
         stack: [reactLogo, typescriptLogo, figma, github],
         link: ""
+    },
+    { 
+        title: "Hydra", 
+        description: "This case study focuses on developing a landing page designed to replicate the Netflix interface, providing an opportunity to explore new interfaces experiences.",
+        tag: { title: "Landing Page", fontColor:"text-indigo-800", bgColor: "bg-indigo-100"},
+        stack: [reactLogo, typescriptLogo, figma, github],
+        link: ""
     }
 ]
 
@@ -56,7 +63,7 @@ export function Projects() {
     };
     
     return (
-        <section id="projects" className="h-sectionHeight flex flex-col justify-center">
+        <section id="projects">
             <div className="flex flex-col gap-4 mb-20">
                 <h2 className="tracking-tighter	font-extrabold text-4xl leading-10">Projects</h2>
                 <p className="text-gray-500 text-xl">Each project is a testament to my passion for innovation, attention to detail, and commitment to delivering high-quality results. Whether it's web applications, websites, or interactive designs, this portfolio offers a glimpse into the projects that define my journey as a frontend developer and designer.</p>

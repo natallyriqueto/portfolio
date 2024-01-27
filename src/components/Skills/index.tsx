@@ -21,7 +21,7 @@ export function Skills() {
     };
 
     return (
-        <section id="skills" className="h-sectionHeight flex flex-col justify-center">
+        <section id="skills">
             <div className="max-w-screen-sm mx-auto text-center">
                 <h3 className="uppercase font-semibold leading-6 tracking-wide">skills</h3>
                 <h2 className="font-bold -tracking-wide leading-10 text-4xl mt-2 mb-5">Core Frontend Developer Skills</h2>
