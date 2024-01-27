@@ -41,7 +41,7 @@ export function Header() {
                     {
                         headings.map((heading) => (
                         <a 
-                            className={`hover:text-zinc-950 hover:font-medium ${activeId === heading.headingId && 'relative font-semibold before:absolute before:top-1/2 before:left-[-14px] before:transform before:-translate-y-1/2 before:h-2 before:w-2 before:bg-blue-500 before:rounded-full' }`}
+                            className={`hover:text-zinc-950 hover:font-medium ${activeId === heading.headingId && 'relative font-semibold before:absolute before:top-1/2 before:left-[-14px] before:transform before:-translate-y-1/2 before:h-2 before:w-2 before:bg-indigo-200 before:rounded-full' }`}
                             key={heading.id}
                             href={`#${heading.id}`} 
                             onClick={(e: React.MouseEvent<HTMLAnchorElement>) => handleNavigation(e, heading.id)}
