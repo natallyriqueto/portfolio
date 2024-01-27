@@ -17,6 +17,7 @@ export default {
       },
       height: {
         xs: '2px',
+        sectionHeight: 'calc(100vh - 5.56rem)',
       },
       gap: {
         xl: '5rem' //80px

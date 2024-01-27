@@ -13,31 +13,35 @@ import react from "@/assets/images/react.svg"
 export function Hero() {
 
     return (
-        <section id="about" className="flex justify-center py-32 gap-8">
-            <div className="laptop:w-500">
-                <img src={avatar} alt="avatar" className="mb-6" />
-                <h1 className="text-6xl font-extrabold mb-6 tracking-tight">Natally Riqueto</h1>
-                <div className="flex items-center gap-4 mb-12">
-                    <div className="bg-zinc-950 w-200 h-xs rounded"></div>
-                    <h2 className="text-2xl font-semibold">Frontend Developer</h2>
+        <section id="about" className="h-sectionHeight">
+            <div className="flex justify-center gap-8 items-center h-full">
+                <div className="laptop:w-500">
+                    <div className="flex gap-8 laptop:block">
+                        <img src={avatar} alt="avatar" className="mb-6" />
+                        <h1 className="text-5xl laptop:text-6xl font-extrabold mb-6 tracking-tight">Natally Riqueto</h1>
+                    </div>
+                    <div className="flex items-center gap-4 mb-12">
+                        <div className="bg-zinc-950 w-200 h-xs rounded"></div>
+                        <h2 className="text-2xl font-semibold">Frontend Developer</h2>
+                    </div>
+                    <p className="text-gray-500 text-xl mb-10"> Hello!👋 <br/> I'm a passionate frontend developer committed to build flawless digital applications. 
+                        Boasting over 5 years of hands-on experience, I specialize in transforming imaginative concepts into visually user-friendly interfaces.</p>
+                    <p className="uppercase text-sm	font-semibold mb-5">technology stack</p>
+                    <div className="flex gap-6 flex-wrap">
+                        <img src={html} alt="html icon" />
+                        <img src={react} alt="react icon" />
+                        <img src={angular} alt="angular icon" />
+                        <img src={css} alt="css icon" />
+                        <img src={typescript} alt="typescript icon" />
+                        <img src={javascript} alt="javascript icon" />                    
+                        <img src={node} alt="node icon" />
+                        <img src={figma} alt="figma icon" />
+                        <img src={tailwind} alt="tailwind icon" />
+                    </div>
                 </div>
-                <p className="text-gray-500 text-xl mb-10"> Hello!👋 <br/> I'm a passionate frontend developer committed to build flawless digital applications. 
-                    Boasting over 5 years of hands-on experience, I specialize in transforming imaginative concepts into visually user-friendly interfaces.</p>
-                <p className="uppercase text-sm	font-semibold mb-5">technology stack</p>
-                <div className="flex gap-6 flex-wrap">
-                    <img src={html} alt="html icon" />
-                    <img src={react} alt="react icon" />
-                    <img src={angular} alt="angular icon" />
-                    <img src={css} alt="css icon" />
-                    <img src={typescript} alt="typescript icon" />
-                    <img src={javascript} alt="javascript icon" />                    
-                    <img src={node} alt="node icon" />
-                    <img src={figma} alt="figma icon" />
-                    <img src={tailwind} alt="tailwind icon" />
+                <div className="hidden laptop:flex max-w-762 mx-auto">
+                    <img src={desk} alt="computer and a computer desk" />
                 </div>
-            </div>
-            <div className="hidden laptop:flex max-w-762 mx-auto">
-                <img src={desk} alt="computer and a computer desk" />
             </div>
         </section>
     )

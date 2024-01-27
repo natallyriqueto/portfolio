@@ -21,7 +21,7 @@ export function Header() {
         headingId: string
       ) => {
         e.preventDefault();
-        const yOffset = -80;
+        const yOffset = -90;
         const headingElement = document.querySelector(`#${headingId}`);
         const position = headingElement ? headingElement.getBoundingClientRect().top + window.scrollY + yOffset : 0;
         window.scrollTo({
@@ -37,7 +37,7 @@ export function Header() {
                     <a href="#">
                         <img src={logo} alt="logo image" />
                     </a>
-                    <ul className="flex gap-6 text-gray-500 cursor-pointer">
+                    <ul className="flex gap-8 text-gray-500 cursor-pointer">
                     {
                         headings.map((heading) => (
                         <a 
