@@ -17,7 +17,7 @@ export function Header() {
     ];
 
     const handleNavigation = (
-        e: React.MouseEvent<HTMLAnchorElement>, 
+        e: React.MouseEvent<HTMLButtonElement, MouseEvent> | React.MouseEvent<HTMLAnchorElement>, 
         headingId: string
       ) => {
         e.preventDefault();
@@ -54,7 +54,7 @@ export function Header() {
                 </div>
                 <button 
                     type="button" 
-                    onClick={(e: React.MouseEvent<HTMLAnchorElement>) => handleNavigation(e, 'contact')}
+                    onClick={(e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => handleNavigation(e, 'contact')}
                     className='hover:bg-slate-800 bg-zinc-950 text-sm text-zinc-50 px-4 py-2 rounded-md hidden tablet:flex'
                 > 
                 Contact me
