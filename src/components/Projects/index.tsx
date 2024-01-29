@@ -34,7 +34,7 @@ const projectsList: ProjectListType[] = [
         description: "This landing page was built to serve as a practical exercise to improve front-end development skills, such as HTML and CSS.",
         tag: { title: "Landing Page", fontColor:"text-indigo-800", bgColor: "bg-indigo-100"},
         stack: [reactLogo, typescriptLogo, figma, github],
-        link: "https://www.coffedelivery.natallyriqueto.com/"
+        link: "https://www.coffeedelivery.natallyriqueto.com/"
     },
     { 
         title: "Netflix", 
