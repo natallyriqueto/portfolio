@@ -24,31 +24,31 @@ interface ProjectListType {
 const projectsList: ProjectListType[] = [
     { 
         title: "Learnu", 
-        description: "This project is an engaging simulation of a small coffee shop delivery service, which was built to serve as a practical exercise to improve front-end development skills.",
+        description: "This landing page was created with the aim of exploring React features, css animations and UI Design.",
         tag: { title: "Landing Page", fontColor:"text-indigo-800", bgColor: "bg-indigo-100"},
         stack: [reactLogo, typescriptLogo, figma, github],
         link: "/learnu"
     },
     { 
         title: "Coffee Delivery", 
-        description: "This project is an engaging simulation of a small coffee shop delivery service, which was built to serve as a practical exercise to improve front-end development skills.",
-        tag: { title: "E-Commerce", fontColor:"text-red-800", bgColor: "bg-red-100"},
+        description: "This landing page was built to serve as a practical exercise to improve front-end development skills, such as HTML and CSS.",
+        tag: { title: "Landing Page", fontColor:"text-indigo-800", bgColor: "bg-indigo-100"},
         stack: [reactLogo, typescriptLogo, figma, github],
-        link: ""
+        link: "/coffe-delivery"
     },
     { 
         title: "Netflix", 
-        description: "This case study focuses on developing a landing page designed to replicate the Netflix interface, providing an opportunity to explore new interfaces experiences.",
+        description: "This case study was created to replicate the Netflix interface, providing an opportunity to explore new interfaces experiences.",
         tag: { title: "Case Study", fontColor:"font-emerald-800", bgColor: "bg-emerald-100"},
         stack: [reactLogo, typescriptLogo, figma, github],
-        link: ""
+        link: "/netflix"
     },
     { 
-        title: "Hydra", 
-        description: "This case study focuses on developing a landing page designed to replicate the Netflix interface, providing an opportunity to explore new interfaces experiences.",
-        tag: { title: "Landing Page", fontColor:"text-indigo-800", bgColor: "bg-indigo-100"},
+        title: "Timer", 
+        description: "This little project was created with the aim of practicing some React features, such as reducers, states and contexts.",
+        tag: { title: "Case Study", fontColor:"font-emerald-800", bgColor: "bg-emerald-100"},
         stack: [reactLogo, typescriptLogo, figma, github],
-        link: ""
+        link: "/timer"
     }
 ]
 
@@ -69,7 +69,7 @@ export function Projects() {
                 <p className="text-gray-500 text-xl">Each project is a testament to my passion for innovation, attention to detail, and commitment to delivering high-quality results. Whether it's web applications, websites, or interactive designs, this portfolio offers a glimpse into the projects that define my journey as a frontend developer and designer.</p>
                 <div className="border border-b-2 border-gray-200"></div>
             </div>
-            <div className="hidden laptop:flex gap-5 flex-wrap cursor-pointer">
+            <div className="hidden laptop:flex gap-5 flex-wrap">
                 { projectsList.map((project) => 
                 <ProjectCard 
                     title={project.title} 
