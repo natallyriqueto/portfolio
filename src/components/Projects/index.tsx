@@ -27,28 +27,28 @@ const projectsList: ProjectListType[] = [
         description: "This landing page was created with the aim of exploring React features, css animations and UI Design.",
         tag: { title: "Landing Page", fontColor:"text-indigo-800", bgColor: "bg-indigo-100"},
         stack: [reactLogo, typescriptLogo, figma, github],
-        link: "/learnu"
+        link: "https://www.learnu.natallyriqueto.com/"
     },
     { 
         title: "Coffee Delivery", 
         description: "This landing page was built to serve as a practical exercise to improve front-end development skills, such as HTML and CSS.",
         tag: { title: "Landing Page", fontColor:"text-indigo-800", bgColor: "bg-indigo-100"},
         stack: [reactLogo, typescriptLogo, figma, github],
-        link: "/coffe-delivery"
+        link: "https://www.coffedelivery.natallyriqueto.com/"
     },
     { 
         title: "Netflix", 
         description: "This case study was created to replicate the Netflix interface, providing an opportunity to explore new interfaces experiences.",
         tag: { title: "Case Study", fontColor:"font-emerald-800", bgColor: "bg-emerald-100"},
         stack: [reactLogo, typescriptLogo, figma, github],
-        link: "/netflix"
+        link: "https://www.netflix.natallyriqueto.com/"
     },
     { 
         title: "Timer", 
         description: "This little project was created with the aim of practicing some React features, such as reducers, states and contexts.",
         tag: { title: "Case Study", fontColor:"font-emerald-800", bgColor: "bg-emerald-100"},
         stack: [reactLogo, typescriptLogo, figma, github],
-        link: "/timer"
+        link: "https://www.timer.natallyriqueto.com/"
     }
 ]
 
