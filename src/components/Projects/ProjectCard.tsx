@@ -27,7 +27,7 @@ export function ProjectCard({ title, description, tag, stack, link }: ProjectCar
                             </li>
                         )}
                     </ul>
-                    <a href={link}>
+                    <a href={link} target="_blank">
                         <p className="text-blue-800 text-sm cursor-pointer hover:text-blue-500">See more...</p>
                     </a>
             </div>
