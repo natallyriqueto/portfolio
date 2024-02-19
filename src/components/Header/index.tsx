@@ -31,9 +31,9 @@ export function Header() {
       };
 
     return (
-        <nav className="bg-white bg-opacity-60 backdrop-blur-md 0 py-6 border-b border-gray-200 sticky top-0 z-[999]">
+        <header className="bg-white bg-opacity-60 backdrop-blur-md 0 py-6 border-b border-gray-200 sticky top-0 z-[999]">
             <div className="max-w-maxW mx-auto px-8 flex items-center justify-between">
-                <div className="flex items-center gap-xl">
+                <nav className="flex items-center gap-xl">
                     <a href="#">
                         <img src={logo} alt="logo image" />
                     </a>
@@ -51,7 +51,7 @@ export function Header() {
                         ))
                     }
                     </ul>
-                </div>
+                </nav>
                 <button 
                     type="button" 
                     onClick={(e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => handleNavigation(e, 'contact')}
@@ -60,6 +60,6 @@ export function Header() {
                 Contact me
                 </button>     
             </div>
-        </nav>
+        </header>
     )
 }
